@@ -1,0 +1,22 @@
+ body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,form,input{
+		margin:0;
+		padding:0;
+		font-family:Arial,"΢���ź�","Segoe Print";
+		font-size:14px;
+		list-style:none;         /*����б�СԲ��*/
+	}
+	a{
+		color:#323333;
+
+
+	text-decoration: none;
+
+
+
+		}
+a:hover
+{
+	text-decoration: none;
+	color: #E5004F;
+
+}

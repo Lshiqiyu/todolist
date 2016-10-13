@@ -1,0 +1,186 @@
+html,body{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+input:focus{
+    outline: none;
+}
+
+.big{
+    /*width:680px;*/
+    /*height:520px;*/
+    width:60%;
+    height:80%;
+    background: #fff;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    border:1px solid #8c8c8c;
+}
+.header{
+    width:100%;
+    height:7%;
+    background: #40464E;
+    color: #fff;
+    font-size: 16px;
+    /*text-align: center;*/
+    line-height: 40px;
+}
+.header i{
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+}
+
+.sousuo input{
+    width:35px;
+    height:35px;
+    margin-top:5px ;
+}
+.sousuo span:before{
+   font-size: 12px;
+    margin-top: 4px;
+}
+
+.left
+{
+    width:30%;
+    height:90%;
+    float: left;
+    background: #40464E;
+}
+.left .daiban{
+    margin-top: 5px;
+}
+.left .daiban,.left .yiban{
+    width:100%;
+    height:10%;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+.left .daiban i,.left .yiban i{
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.left .daiban span,.left .yiban span{
+    margin-left: 10px;
+}
+.list
+{
+    width:100%;
+    height:auto;
+    border-bottom: 1px solid #8c8c8c;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.list input{
+    border:0;
+    width:75%;
+    background: transparent;
+    margin-left: 10px;
+
+}
+.btnDel{
+    opacity: 0;
+    cursor: pointer;
+    margin-right: 5px;
+    transition:opacity 1s ease;
+}
+.btnDel:hover{
+    opacity:1;
+    /*visibility: visible;*/
+}
+.add-list{
+    width:100%;
+    height:10%;
+    position: absolute;
+    bottom: 0;
+    left:5px;
+    color: #fff;
+    cursor: pointer;
+    /*text-align: center;*/
+    line-height: 40px;
+}
+.right{
+    width:70%;
+    height:90%;
+    float: left;
+    background: #fff;
+    position: absolute;
+    right:0;
+}
+.right .title
+{
+    width:100%;
+    height:10%;
+    border-bottom: 2px solid #2c2c2c;
+    /*text-align: center;*/
+    line-height: 50px;
+    padding-left: 10px ;
+}
+.right .add{
+    position: absolute;
+    right:5%;
+    top:4%;
+    /*margin-left: 90%;*/
+    /*top:5%;*/
+
+    cursor: pointer;
+}
+.right .listcon{
+    border-bottom: 1px solid #2c2c2c;
+    padding-left: 3%;
+
+}
+.right .listcon input{
+    height:30px;
+
+    border:0;
+    width:85%;
+}
+.right .ll .listcon .remove {
+    /*padding-right: 5%;*/
+    /*margin-right: 5%;*/
+}
+.bottom{
+    width:100%;
+    height:3%;
+    background:#40464E;
+    position: absolute;
+    bottom:0;
+    left:0;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
